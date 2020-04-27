@@ -51,7 +51,6 @@ todoControl.addEventListener("submit", function(event) {
         value: headerInput.value,
         completed: false
     };
-    console.log(newTodo);
     todoData.push(newTodo);
     headerInput.value = "";
     render();
